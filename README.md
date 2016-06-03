@@ -8,3 +8,18 @@ For each image a dlib shape predictor is run and the largest detected face is pi
 - numpy
 - matplotlib
 - dlib
+
+##Usage
+
+    usage: MeanFace.py [-h] [-v] [-p PREDICTOR_PATH] image [image ...]
+    
+    Average faces in images.
+    
+    positional arguments:
+      image                 Image files to process
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      -v, --verbose         Verbose output
+      -p PREDICTOR_PATH, --predictor-path PREDICTOR_PATH
+                            Path to dlib shape predictor
